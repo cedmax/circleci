@@ -26,7 +26,7 @@
     "url": "https://github.com/jpstevens/circleci/issues"
   },
   "homepage": "https://github.com/jpstevens/circleci",
-  "devDependencies": {
+  "dependencies": {
     "grunt-coffeelint": "0.0.10",
     "grunt-contrib-watch": "^0.6.1",
     "grunt": "^0.4.5",
@@ -37,9 +37,7 @@
     "coffee-script": "^1.7.1",
     "sinon": "^1.10.2",
     "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-copy": "^0.5.0"
-  },
-  "dependencies": {
+    "grunt-contrib-copy": "^0.5.0",
     "q": "^1.0.1",
     "request": "^2.36.0"
   }
