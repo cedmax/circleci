@@ -5,7 +5,8 @@
   "main": "dist/circleci.js",
   "scripts": {
     "test": "grunt test:unit",
-    "prepublish": "npm test && grunt build"
+    "prepublish": "npm test && grunt build",
+    "postinstall": "grunt build"
   },
   "keywords": [
     "circleci",
